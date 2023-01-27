@@ -77,3 +77,6 @@ main{
     
     transform: rotate(10deg);
 }
+footer{
+    background-color: brown;
+}
