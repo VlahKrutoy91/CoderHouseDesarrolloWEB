@@ -1,0 +1,27 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+.caja{
+ width: 150px;
+ height: 150px;
+ margin: 20px;
+}
+
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: green;
+}
+.naranja{
+    background-color: orange;
+}
+.rojo{
+    background-color: red;
+    width: 90%;
+    height: 10%;
+    position: sticky;
+    top: 70px;
+}

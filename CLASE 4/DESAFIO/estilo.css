@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    margin: 2rem;
+    text-align:center;
+    color:white
+}
+h1{
+    color: blue
+}
+.contenedor{
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: "Header Header Header" "A B Aside" "Footer Footer Footer";
+}
+.hijo{
+    border-radius: 5px;
+}
+.Header{
+    background-color: blue;
+    grid-area: Header;
+}
+.A{
+    background-color: chartreuse;
+    grid-area: A;
+}
+.B{
+    background-color:grey ;
+    grid-area: B;
+}
+.Aside{
+    background-color: red;
+    grid-area: Aside;
+}
+.Footer{
+    background-color:green ;
+    grid-area: Footer;
+}

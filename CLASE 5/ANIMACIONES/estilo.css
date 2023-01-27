@@ -1,0 +1,54 @@
+.anim{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes anima{
+    0%{width: 150px;}
+    25%{width: 200px;}
+    50%{width: 150px;
+    background-color: lime;}
+    75%{width: 120px;
+    background-color: fuchsia;}
+    100%{width: 150px;background-color: cyan;}
+}
+
+.animame{
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    border: solid black 3px;
+    margin: 30px auto;
+    animation: animacion 3s infinite;
+}
+@keyframes animacion{
+    0%{transform: rotate(180deg);}
+    50%{background-color: fuchsia;}
+    100%{transform: scale(1.1);
+    border-radius: 20%;}
+}
+.aparecer{
+    margin: 50px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-duration: 8s;
+    animation-name: texto;
+}
+@keyframes texto{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.red{
+    color: red;
+    font-size: 3rem;
+}
+.blue{
+    color: blue;
+    font-size: 3rem;
+}

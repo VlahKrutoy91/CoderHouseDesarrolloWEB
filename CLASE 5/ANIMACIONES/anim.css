@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
+main{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+.flor img{
+    width: 200px;
+    height: 100px;
+    transition: all 2s;
+}
+.flor img:hover{
+    transform: rotate(10deg);
+}
+.verde{
+    background-color: green;
+    transition: all 2s;
+}
+.verde:hover{
+    transform: skew(10deg);
+}
+.rojo{
+    background-color: red;
+    transition: all 2s;
+}
+.rojo:hover{
+    transform: scale(.1, .1);
+    border-radius: 20px;
+}
+.amarillo{
+    background-color: yellow;
+    transition: all 2s;
+}
+.amarillo:hover{
+    width: 300px;
+    background-color: turquoise;
+
+}
+.fucsia{
+    background-color: fuchsia;
+    transition: all 2s;
+}
+.fucsia:hover{
+    transform: translate(30px);
+}
+.gris{
+    background-color: grey;
+    transition: all 2s;
+}
+.gris:hover{
+    background-color: blue;
+    width: 250px;;
+}
+.azul{
+    background-color: blue;
+    transition: all 2s;
+}
+.azul:hover{
+    
+    transform: rotate(10deg);
+}
